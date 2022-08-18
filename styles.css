@@ -1,0 +1,62 @@
+body{
+background-color: lightcyan;
+}
+
+#level-title{
+color:crimson;
+font-family: cursive;
+text-align: center;
+}
+
+.container{
+  position: relative;
+}
+.row{
+  float:left;
+  margin-left: 20rem;
+}
+#red{
+  background-color: red;
+  width: 200px;
+  height: 200px;
+  border-radius: 25%;
+  
+}
+#red:active{
+  opacity:0.5;
+}
+
+#green{
+  background-color: green;
+  width: 200px;
+  height: 200px;
+  margin-bottom: 10rem;
+  border-radius: 25%;
+}
+#green:active{
+  opacity:0.5;
+}
+#blue{
+  background-color: blue;
+  width: 200px;
+  height: 200px;
+  border-radius: 25%;
+}
+#blue:active{
+  opacity:0.5;
+}
+#yellow{
+  background-color:yellow;
+  width: 200px;
+  height: 200px;
+  margin-bottom: 10rem;
+  border-radius: 25%;
+}
+#yellow:active{
+  opacity:0.5;
+}
+
+.click{
+  box-shadow: 10px black;
+  opacity: 0.5;
+}
